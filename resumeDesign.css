@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing : border-box;
+}
+
+html{
+    color: #222;
+}
+body{
+    padding: 2rem 2.5rem;
+    background: linear-gradient(#dfe0db,#dfe0db 50% , #ffc7b6 50% ,#ffc7b6);
+
+}
+h1{
+    font-size: 2rem;
+    text-transform:uppercase;
+}
+h2{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 0.5rem 0;
+    margin-bottom: 2rem;
+    margin-top:1rem;
+}
+h3{
+    font-size: 1rem;
+    text-transform:uppercase;
+    color: salmon;
+    margin-bottom: 1rem;
+}
+p{
+    line-height: 1.5;
+}
+section + section{
+    margin-top: 2 rem;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+    font-size: 0.8rem;
+}
+ul{
+    list-style:none;
+}
+.profile{
+    text-align :center;
+}
+
+.profile img{
+    border-radius: 999px;
+    width: 15rem;
+    height: 15rem
+}
+.profile p{
+    color: #888;
+    margin-bottom:1rem;
+    font-size: 1.25rem;
+}
+.contact ul{
+    margin-top:-2rem;
+}
+.contact li{
+    text-align:right;
+    text-transform:uppercase;
+    padding : 1rem;
+    border-top: 1px solid #888;
+    color: #888;
+    border-bottom: 1px solid #888;
+    font-size: 0.8rem;
+}
+.skills > ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+
+.timeline .event + .event{
+    padding-top: 1rem;
+}
+
+.timeline .event{
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+.timeline .content{
+    border-left: 1px solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+.content > h3 + p{
+    margin-bottom: 1rem;
+    color: #333;
+}
+.resume{
+    display:grid;
+    grid-template-columns: 50% 1fr;
+    grid-gap: 3rem;
+    background-color: white;
+    padding: 2rem;
+    max-width: 1000px;
+    margin:auto;
+}

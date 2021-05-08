@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Resume generator</title>
+        <link rel="stylesheet" href="homepageStyle.css">
+    </head>
+    <body >
+        <div class="circle"></div>
+        <div >
+            <nav>
+                <div class=img1>
+                    <img src="logo.png" width="100" height="100">
+                <ul>
+                    <li><a href="#section1">Home</a></li>
+                    <li><a href="#section2">Resume</a></li>
+                    <li><a href="#section3">Find Job</a></li>
+                    <li><a href="#section4">My Account</a></li>
+                </ul>
+            </div>
+
+            </nav>
+        </div>
+        <div class="content">
+            <div class="textbox">
+                <h6>It's just not<br></h4>
+                <h3 id="heading3">Resume</h3>
+                <h6>It's your <br></h4>
+                <h1 id="xyz">Career</h1>
+                <p></p>
+            </div>
+            <div class="resume">
+                    <img id="img" src="resumepic1.png" width="400" height="400">
+            </div>
+            <ul class="thumb">
+                <li><img id="img1" src="resumepic1.png" width="80" height="80" onmouseover="imageslider();changeColor('#000065');"li>
+                <li><img id="img2" src="resumepic2.jpg" width="80" height="80"  onmouseover="imageslider2();changeColor('#996515');"></li>
+                <li><img id="img3" src="resumepic3.jpg" width="80" height="80"  onmouseover="imageslider3();changeColor('#800000')"></li>
+            </ul>
+        </div>
+        <div class="textbox2" >
+            The purpose of a resume is to introduce yourself to employers, present your qualifications, and secure an interview.<br> The goal of writing a resume is to showcase your experience, education, and skills in a standardized format which is easy for recruiters to read.
+            <br>Now that you know what it is, here's our guide on <b>How to Build a Resume</b>.<br>
+            A resume is definitely a must-have. Without it, you can't expect to be invited to a job interview.<br>
+                            Make a Persuasive Resume in Just Minutes Answer a few questions about your background, skills and experience, then select a template.<br> Our Resume Builder does the rest. 
+        </div>
+        <section id="section2">
+            <div class="flipPortion">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"> 
+  
+                        <img src="Student1.jpg" alt="Avatar" style="width:400px;height:450px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <img src="resumestudent.jpg" alt="Avatar" style="width:390px;height:480px;">
+                        <div id="btn1">
+                          <button ><a href="Input1.html">next</a></button>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="flipPortion">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="Student2.jpg" alt="Avatar" style="width:400px;height:450px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <img src="profresumefinal.png" alt="Avatar" style="width:390px;height:480px;">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="flipPortion">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="Student3.jpg" alt="Avatar" style="width:400px;height:450px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <img src="resumepic3.jpg" alt="Avatar" style="width:390px;height:480px;">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="freecard">
+                <div class="flipPortion">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="freeresume.jpg" alt="Avatar" style="width:450px;height:450px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <img src="resumepic1.png" alt="Avatar" style="width:390px;height:500px;">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+      
+        <div class="footer">
+            <a class="footer-link" href="https://www.linkedin.com/" color="#120136"><img src="004-linkedin.png" alt="in"> </a>
+    <a class="footer-link" href="https://www.facebook.com/"><img src="001-facebook.png" alt="fb"></a>
+    <a class="footer-link" href="https://www.twitter.com/"><img src="003-twitter.png" alt="tw"></a>
+    <a class="footer-link" href="https://www.instagram.com/"><img src="002-instagram.png" alt="tw"></a>
+    <div>
+      <p>
+        ©2020 RB    All Rights are Reserved
+        <br /> This is a private website not belongs to any government organisation.Built only for project purpose.The content available on this site may be incorrect
+    </div>
+          </div>
+
+        <script type="text/javascript">
+        function imageslider(){
+            var image = document.getElementById('img').src="resumepic1.png";
+            document.getElementById("xyz").style.color = "#000065";
+            document.getElementById("heading3").style.color = "#000065";
+        }
+        function imageslider2()
+        {
+            var image = document.getElementById('img').src="resumepic2.jpg";
+            document.getElementById("xyz").style.color = "#996515";
+            document.getElementById("heading3").style.color = "#996515";
+        }
+        function imageslider3()
+        {
+            var image = document.getElementById('img').src="resumepic3.jpg";
+            document.getElementById("xyz").style.color = "#800000";
+            document.getElementById("heading3").style.color = "#800000";
+        }
+        function changeColor(color)
+        {
+            const circle=document.querySelector('.circle');
+            circle.style.background=color;
+        }
+       
+        </script>
+    </body>
+</html>
