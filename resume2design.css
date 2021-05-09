@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing : border-box;
+}
+
+html{
+    color: #222;
+}
+body{
+    padding: 2rem 2.5rem;
+    background-color:rgba(110, 104, 104, 0.336);
+
+}
+h1{
+    font-size: 2rem;
+    text-transform:uppercase;
+}
+h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+    margin-top:1rem;
+    border-bottom: 5px solid #888;
+}
+h3{
+    font-size: 1rem;
+    text-transform:uppercase;
+    color: black;
+    margin-bottom: 0.3rem;
+}
+p{
+    line-height: 1;
+}
+section + section{
+    margin-top: 2 rem;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+    font-size: 0.8rem;
+}
+ul{
+    list-style:disc;
+    margin-left:0.3rem;
+}
+
+
+.profile{
+    text-align :center;
+}
+.profile p{
+    color: #888;
+    margin-bottom:1rem;
+    font-size: 1.25rem;
+}
+.skills{
+    padding-bottom: 2rem;
+    border-bottom: 5px solid #888;
+}
+.skills > ul{
+    display:inline-block;
+}
+
+.timeline .event + .event{
+    padding-top: 1rem;
+}
+
+.timeline .event{
+    display: grid;
+    grid-template-columns: 4ch 1fr;
+}
+.timeline .content{
+    padding-left: 1rem;
+    margin-left: 0.1rem;
+}
+.content > h3 + p{
+    margin-bottom: 1rem;
+    color: #333;
+}
+.resume{
+    display:block;
+    grid-template-columns: 50% 1fr;
+    grid-gap: 3rem;
+    background-color: white;
+    padding: 2rem;
+    max-width: 1000px;
+    margin:auto;
+}
+.inpair
+{
+    display:block;
+    grid-template-columns: 50% 1fr;
+    grid-gap: 3rem;
+    background-color: white;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    padding: 1rem;
+    max-width: 1000px;
+    margin:auto;
+}
+.education{
+    padding-bottom: 1.2rem;
+    border-bottom: 5px solid #888;
+}
+.duration span
+{
+    margin-right:1rem;
+    border-bottom: 5px solid #888;
+}
+table{
+    width:900px;
+     height:980px;
+     margin-left:20rem;
+}
+img{
+    width:15rem;
+    border-radius: 50%;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+}
+.td1 {
+    margin-top:-24rem;
+}
+.td1 h1{
+    margin-top:1rem;
+    margin-bottom:2rem;
+    padding: 0.8rem 0;
+    border-bottom: 5px solid rgb(243, 229, 229);
+}
+.td1 p{
+    font-size:20px;
+}
+
