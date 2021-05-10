@@ -22,7 +22,8 @@ h2{
     padding: 0.5rem 0;
     margin-bottom: 0.5rem;
     margin-top:1rem;
-    border-bottom: 5px solid #888;
+    border-bottom: 5px solid #002155;
+    
 }
 h3{
     font-size: 1rem;
@@ -58,7 +59,7 @@ ul{
 }
 .skills{
     padding-bottom: 2rem;
-    border-bottom: 5px solid #888;
+    border-bottom: 5px solid #002155;
 }
 .skills > ul{
     display:inline-block;
@@ -103,7 +104,7 @@ ul{
 }
 .education{
     padding-bottom: 1.2rem;
-    border-bottom: 5px solid #888;
+    border-bottom: 5px solid #002155;
 }
 .duration span
 {
