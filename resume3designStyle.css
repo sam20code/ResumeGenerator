@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing : border-box;
+}
+
+html{
+    color: #222;
+}
+body{
+    padding: 2rem 2.5rem;
+    background-color:rgba(110, 104, 104, 0.336);
+}
+h1{
+    font-size: 2rem;
+    text-transform:uppercase;
+}
+h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+    margin-top:0.5rem;
+    border-bottom: 5px solid #996515;
+    
+}
+h3{
+    font-size: 1rem;
+    text-transform:uppercase;
+    color: black;
+    margin-bottom: 0.3rem;
+}
+p{
+    line-height: 1;
+}
+section + section{
+    margin-top: 1rem;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+    font-size: 0.8rem;
+}
+ul{
+    list-style:disc;
+    margin-left:0.3rem;
+}
+
+.skills{
+    padding-bottom: 2rem;
+    border-bottom: 5px solid #996515;
+}
+.skills > ul{
+    display:inline-block;
+}
+
+.timeline .event + .event{
+    padding-top: 1rem;
+}
+
+.timeline .event{
+    display: grid;
+    grid-template-columns: 4ch 1fr;
+}
+.timeline .content{
+    padding-left: 1rem;
+    margin-left: 0.1rem;
+}
+.content > h3 + p{
+    margin-bottom: 1rem;
+    color: #333;
+}
+.resume{
+    display:block;
+    background-color: white;
+    padding: 2rem;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.education{
+    padding-bottom: 1.2rem;
+    border-bottom: 5px solid #996515;
+}
+.duration span
+{
+    margin-right:1rem;
+    border-bottom: 5px solid #888;
+}
+table{
+    width:900px;
+     height:980px;
+     margin-left:20rem;
+}
+table th{
+    height:80px;
+}
+img{
+    width:10rem;
+    border-radius: 50%;
+}
+.th1
+{
+    display:grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 15rem;
+}
+
