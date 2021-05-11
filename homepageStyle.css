@@ -177,7 +177,9 @@ clip-path:circle(600px at right 800px);
   }
 
   .footer {
-    background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%,blue 100%);
+    
+    background-color: #2a2a72;
+background-image: linear-gradient(#2a06f3 0%, #00e1ff 74%);
     margin-top:20px;
     width:100%;
     height: 150px;
